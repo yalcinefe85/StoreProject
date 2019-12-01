@@ -20,6 +20,7 @@ public class CreatingAccountSteps {
         onlineStoreHomePage.signInButton.click();
         Thread.sleep(1000);
         System.out.println("some changes");
+        System.out.println("trying to work with git commends");
 
     }
 
