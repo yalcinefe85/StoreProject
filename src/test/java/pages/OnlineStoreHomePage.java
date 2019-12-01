@@ -13,6 +13,12 @@ public class OnlineStoreHomePage {
         this.driver= Driver.driver;
         PageFactory.initElements(driver,this);
     }
-    @FindBy(xpath = "//div[@class='header_user_info']")
+    @FindBy(xpath = "//*[@title='Log in to your customer account']")
     public WebElement signInButton;
+
+    @FindBy(xpath = "//input[@id='email']")
+    public WebElement emailBox;
+
+    @FindBy(xpath = "passwd")
+    public WebElement passBox;
 }
